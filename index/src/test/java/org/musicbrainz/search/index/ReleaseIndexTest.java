@@ -872,7 +872,7 @@ public class ReleaseIndexTest extends AbstractIndexTest {
             assertEquals("Official", release.getStatus().getContent());
             assertEquals("EP", release.getReleaseGroup().getPrimaryType().getContent());
             assertEquals("EP", release.getReleaseGroup().getType());
-            assertEquals("Jewel Case", release.getPackaging());
+            assertEquals("Jewel Case", release.getPackaging().getContent());
             assertNotNull(release.getMediumList());
             assertEquals(1,release.getMediumList().getCount().intValue());
             assertEquals(1,release.getMediumList().getTrackCount().intValue());
