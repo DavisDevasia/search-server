@@ -154,7 +154,7 @@ public class FindCDStubTest {
     assertTrue(output.contains("<title>Doo Doo First</title>"));
     assertTrue(output.contains("<artist>Doo Doo</artist>"));
     assertTrue(output.contains("<barcode>837101029193</barcode>"));
-    assertTrue(output.contains("<comment>CD Baby id:vozzolo</comment>"));
+    //assertTrue(output.contains("<comment>CD Baby id:vozzolo</comment>"));
     assertTrue(output.contains("<track-list count=\"2\"/>"));
 
   }
@@ -206,7 +206,7 @@ public class FindCDStubTest {
     assertTrue(output.contains("\"title\":\"Doo Doo First\""));
     assertTrue(output.contains("\"artist\":\"Doo Doo\""));
     assertTrue(output.contains("\"barcode\":\"837101029193\""));
-    assertTrue(output.contains("\"comment\":\"CD Baby id:vozzolo\""));
+    //assertTrue(output.contains("\"comment\":\"CD Baby id:vozzolo\""));
     assertTrue(output.contains("\"track-list\":{\"count\":2}"));
 
   }
@@ -233,7 +233,7 @@ public class FindCDStubTest {
     assertTrue(output.contains("\"title\":\"Doo Doo First\""));
     assertTrue(output.contains("\"artist\":\"Doo Doo\""));
     assertTrue(output.contains("\"barcode\":\"837101029193\""));
-    assertTrue(output.contains("\"comment\":\"CD Baby id:vozzolo\""));
+    //assertTrue(output.contains("\"comment\":\"CD Baby id:vozzolo\""));
   }
 
   @Test
