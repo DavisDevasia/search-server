@@ -112,7 +112,9 @@ public class FindReleaseTest {
 
 
             doc.addField(ReleaseIndexField.PACKAGING, "Jewel Case");
-            release.setPackaging("Jewel Case");
+            Packaging pkg = new Packaging();
+            pkg.setContent("Jewel Case");
+            release.setPackaging(pkg);
 
             doc.addField(ReleaseIndexField.QUALITY, ReleaseQuality.HIGH.toString());
             doc.addField(ReleaseIndexField.TAG, "punk");
